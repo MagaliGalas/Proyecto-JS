@@ -1,0 +1,28 @@
+{
+    "servicios":[
+        {
+            "nombre":"Book",
+            "precioFoto":20,
+            "precioCambio":10,
+            "indice":0
+        },
+        {
+            "nombre":"New Born",
+            "precioFoto":25,
+            "precioCambio":2,
+            "indice":1
+        },
+        {
+            "nombre":"Producto",
+            "precioFoto":30,
+            "precioCambio":15,
+            "indice":2
+        },
+        {
+            "nombre":"Sociales",
+            "precioFoto":20,
+            "precioCambio":50,
+            "indice":3
+        }
+    ]
+}

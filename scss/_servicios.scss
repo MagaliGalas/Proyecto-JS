@@ -1,0 +1,157 @@
+/* Servicios (BEM) */
+.servicios {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Servicios Contenedor Section (BEM) */
+.servicios__caja {
+    background-color: $beige;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 9.91px 9.91px 15px #d1d2d3, -9.91px -9.91px 15px #fff;
+}
+
+/* Servicios Imagenes (BEM) */
+.servicios__img {
+    background-color: transparent;
+    height: auto;
+    padding-top: 20px;
+    width: 60%;
+}
+
+/* Servicios Titulo (BEM) */
+.servicios__titulo {
+    text-align: center;
+    color: $negro;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: $beige;
+}
+
+/* Servicios Descripción (BEM) */
+.servicios__parrafo {
+    background-color: transparent;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Cursor */
+.servicios__cursor {
+    cursor: pointer;
+}
+
+/* Boton Modal */
+.servicios__botonModal {
+    color: $blanco;
+    background-color: $azul;
+}
+
+a.servicios__botonModal:hover {
+    color: $azul;
+    background-color: $beige;
+    font-weight: bold;
+}
+
+/* Body Modal */
+.servicios__bodyModal {
+    background-color: $beige;
+    color: $negro;
+}
+
+/* Body Modal */
+.servicios__tituloModal {
+    background-color: $tierra;
+    color: $negro;
+    font-size: 1.5rem;
+}
+
+/* Pie Modal */
+.servicios__pieModal {
+    background-color: $tierra;
+}
+
+
+/* Calcular Presupuesto (Servicios) */
+.servicios__presupuesto {
+    color: $negro;
+    background-color: $amarillo;
+    margin-top: 100px;
+}
+
+.servicios__boton {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Calcular Presupuesto (Presupuesto HTML) */
+.presupuesto__boton {
+    display: flex;
+    justify-content: center;
+}
+
+.presupuesto__calcular {
+    color: $negro;
+    background-color: $amarillo;
+    margin: 1%;
+}
+
+.presupuesto__titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+h2.presupuesto__titulo{
+    color: $negro;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.presupuesto__formulario{
+    justify-content: center;
+}
+
+.presupuesto__form{
+    margin-top: 2%;
+    color: #F4EEE8;
+    margin-bottom: 5%;
+}
+
+.presupuesto__form form{
+    background-color: $azul;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    padding-top: 4vh;
+    padding-bottom: 3vh;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px 1px rgba(34,34,34,1);
+    opacity: 0.92;
+}
+
+.divPrint{
+    background-color: $azul;
+    color: #F4EEE8;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px 1px rgba(34,34,34,1);
+    opacity: 0.92;
+    padding: 1%;
+}
+
+.divOk{
+    background-color: #00aa33;
+    color: #F4EEE8;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px 1px rgba(34,34,34,1);
+    opacity: 0.92;
+    padding: 1%;
+}

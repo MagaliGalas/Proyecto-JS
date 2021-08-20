@@ -1,0 +1,18 @@
+{
+  "name": "lea&juan",
+  "version": "1.0.0",
+  "description": "Fotografia",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/miestilo.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Florencia Magali Galas",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}

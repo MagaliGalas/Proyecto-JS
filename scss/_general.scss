@@ -1,0 +1,87 @@
+/* Variables */
+$amarillo: #FFE268;
+$azul: #2C4877;
+$marron: #98734C;
+$negro: #222222;
+$tierra: #E3CCB4;
+$beige: #F4EEE8;
+$blanco: #FFFFFF;
+
+/* CSS En Comun */
+*{
+    font-family: Raleway;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Contenido Centrado General*/
+.centrarContenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Barra de Navegacion */
+.barraNavegacion{
+    color: #2C4877;
+    background-color: rgba(227, 204, 180, 0.85);
+}
+
+.barraNavegacion img{
+    position: fixed;
+    top: 0.5rem;
+}
+
+/* Media Query Logo */
+@media screen and (max-width: 992px)
+{
+    .barraNavegacion img {
+        width: 2.5rem;
+    }
+}
+
+/* Footer Texto (BEM) */
+.pie{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(227, 204, 180, 0.85);
+}
+
+/* Footer RRSS Contenedor (BEM) */
+.pie__RRSS{
+    background-color: transparent;
+    padding-bottom: 5px;
+}
+
+/* Footer RRSS Imagenes (BEM) */
+.pie__imgRRSS{
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+/* Footer Texto 2 (BEM) */
+.pie__texto2{
+    background-color: transparent;
+}
+
+/* Boton 404 */
+.boton404{
+    color: $azul;
+    background-color: $amarillo;
+    border-style: none;
+    text-decoration: none;
+    width: 80px;
+    height: 80px;
+    padding: 6px 0px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.42857;
+    margin-top: 1vh;
+}
+
+.boton404 a:visited{
+    color: $azul;
+}

@@ -1,0 +1,51 @@
+$fuente: 4.5rem;
+
+/* Imagen Home Estilo (BEM) */
+.estiloHome{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    overflow: hidden;
+}
+
+/* Texto Home (BEM) */
+.estiloHome__texto{
+    padding-top: 15rem;
+    padding-right: 5rem;
+    color: $azul;
+    background-color: transparent;
+    font-size: 3rem;
+    float: right;
+    z-index: 10;
+    position: sticky;
+    text-shadow: 2px 2px 5px rgba(150, 150, 150, 1);
+}
+
+/* Imagen Home (BEM) */
+.estiloHome__img{
+    background-image: url(../multimedia/home/foto-index-2.jpg);
+    background-color: #D6B48F;
+    z-index: -10;
+    background-position: center;
+    height: 100%;
+    opacity: 0.8;
+    filter: sepia(80%);  
+}
+
+/* Titulo Home (BEM) */
+.estiloHome__titulo1{
+    font-size: $fuente;
+    text-shadow: 2px 2px 5px rgba(150, 150, 150, 1);
+}
+
+/* Animacion Texto Home */
+.animate__animated.animate__slideInRight{ 
+    animation-delay: 0.3s;
+}
+
+/* Operadores SASS */
+.estiloHome__titulo2{
+    font-size: $fuente/2;
+}
