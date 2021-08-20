@@ -1,2 +1,2 @@
-Desarrollo Web Coder House
+JavaScript Coder House
 Proyecto Florencia Magalí Galas
